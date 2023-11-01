@@ -31,13 +31,15 @@
         }
 
         .p-3 {
-            padding: 10px; /* Mengurangi padding pada elemen .p-3 */
+            padding: 10px;
+            /* Mengurangi padding pada elemen .p-3 */
         }
 
         .d-inline-flex .btn {
             display: block;
             width: 100%;
-            margin-bottom: 5px; /* Mengurangi margin pada tombol */
+            margin-bottom: 5px;
+            /* Mengurangi margin pada tombol */
         }
     }
 </style>
@@ -49,37 +51,73 @@
             <img src="{{ asset('images/location.png') }}" alt="Deskripsi Gambar">
         </div>
         <div class="container-transparent he" style="height: 15px;">
-    </div>
+        </div>
         <h1 class="text-body-emphasis" style="color: #f7a600;">PT. Karunia Cipta Qinsani</h1>
         <p class="col-lg-8 mx-auto fs-5" style="color: #f7a600;">
-            Sentra Niaga Blok D4. Jl. Bintara No.61, RT.001/RW.012, Kranji, Kec. Bekasi Barat., Kota Bekasi, Jawa Barat 17135
-        </p>
-        
+            Bintarajaya 8 RT 08 RW 09 No. B17 Bekasi Barat 17136</p>
+
         <!-- Sosial Media -->
         <div class="d-inline-flex flex-wrap gap-2 mb-3">
             <!-- Instagram -->
-            <a href="https://example.com" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
+            <a href="https://instagram.com/ciptaqinsani?igshid=OGQ5ZDc2ODk2ZA==" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
                 <i class="fab fa-instagram"></i>
                 Instagram
             </a>
 
             <!-- LinkedIn -->
-            <a href="https://example.com" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
+            <a href="https://www.linkedin.com/company/karunia-cipta-qinsani/" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
                 <i class="fab fa-linkedin-in"></i>
                 LinkedIn
             </a>
 
             <!-- Phone -->
-            <a href="https://example.com" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
+            <a href="https://wa.me/08111348293" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
                 <i class="fas fa-phone"></i>
                 Phone
             </a>
 
             <!-- Email -->
-            <a href="https://example.com" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
-                <i class="far fa-envelope"></i>
-                Email
-            </a>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <title>Tautan Email ke Gmail</title>
+            </head>
+
+            <body>
+                <a href="javascript:void(0);" id="emailButton" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
+                    <i class="far fa-envelope"></i>
+                    Email
+                </a>
+
+                <script>
+                    document.getElementById('emailButton').addEventListener('click', function() {
+                        var emailTo = 'info.qinsani@gmail.com';
+                        var emailSubject = 'Tanya Karunia Cipta Qinsani';
+
+                        // Mengecek apakah aplikasi Gmail adalah aplikasi email default di perangkat
+                        if (isGmailAppDefault()) {
+                            // Jika Gmail adalah aplikasi default, langsung membuka tautan email
+                            var emailLink = 'mailto:' + emailTo + '?subject=' + emailSubject;
+                            window.location.href = emailLink;
+                        } else {
+                            // Jika Gmail bukan aplikasi email default, membuka Gmail di browser
+                            window.location.href = 'https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=' + emailTo + '&su=' + emailSubject;
+                        }
+                    });
+
+                    // Fungsi untuk memeriksa apakah Gmail adalah aplikasi email default di perangkat
+                    function isGmailAppDefault() {
+                        if (typeof navigator.userAgent !== "undefined" && navigator.userAgent.match(/Android/i)) {
+                            return true; // Jika perangkat adalah Android, kita anggap Gmail adalah aplikasi default
+                        }
+                        return false; // Jika perangkat bukan Android, kita anggap Gmail bukan aplikasi default
+                    }
+                </script>
+            </body>
+
+            </html>
+
         </div>
     </div>
 </div>

@@ -26,21 +26,21 @@
         <div class="row g-5">
             <div class="col-md-6 text-center">
                 <h2>VISION</h2>
-                <p>Menjadi salah satu organisasi termuka yang menyediakan solusi dalam pengembangan profesional dan organisasi melalui pembinaan, konsultasi dan pelatihan di Indonesian dengan intergritas, nilai dan berorientasi hasil bagi para pemangku kepentingan. </p>
+                <p>Menjadi salah satu organisasi termuka yang menyediakan solusi dalam pengembangan profesional suatu organisasi melalui pembinaan, konsultasi dan pelatihan di Indonesia dengan integritas, nilai, dan berorientasi hasil bagi para pemangku kepentingan.
             </div>
             <div class="col-md-6 text-center">
                 <h2>MISION</h2>
-                <p>Memberikan solusi terbaik dengan memberikan Value, memberikan konsultasi manajemen, pelatihan dan pembinaan, pengembangan organisasi dan rekomendasi untuk perbaikan konsumen untuk mencapai hal yang signifikan, nyata dan langgeng dalam kinerja dan tujuan akhir mereka</p>
+                <p>Menyediakan solusi dalam pengembangan profesional suatu organisasi melalui pembinaan, konsultasi, dan pelatihan di Indonesia, memberdayakan individu dan organisasi di Indonesia melalui berbagai solusi pengembangan profesional yang unggul, menyediakan pembinaan yang mendalam untuk membantu individu dan organisasi mencapai potensi penuh mereka, memberikan konsultasi yang relevan untuk membantu para klien dalam menghadapi tantangan dan mencapai tujuan mereka, menyediakan pelatihan berkualitas tinggi yang memungkinkan pengembangan keterampilan dan pengetahuan yang relevan.
             </div>
         </div>
         <hr class="mx-auto my-5 text-center" style="width: 865px;">
         <h2>VALUE </h2>
-        <div class="container-transparent he" style="height: 30px;"></div> 
+        <div class="container-transparent he" style="height: 30px;"></div>
 
         <!-- Value -->
         <div class="row justify-content-center text-center">
             <!-- Commitment -->
-            
+
             <div class="col-lg-3">
                 <div class="container">
                     <img src="{{ asset('images/commitment.png') }}" alt="Gambar Anda" width="150" height="130" style="margin-right: 20px; margin-left: 20px;">

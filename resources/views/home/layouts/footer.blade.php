@@ -17,7 +17,7 @@
 
 <footer class="new-footer">
     <div class="new-footer-widget new-footer-widget-2">
-        <p>&copy; 2023 Jihan Rahadatul Aisy all right reserved.</p>
+        <p>&copy; 2023 PT Karunia Cipta Qinsani all right reserved.</p>
     </div>
 </footer>
 

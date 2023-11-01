@@ -89,14 +89,6 @@
                             <a class="nav-link {{ Request::is('Contact Us') ? 'menu-active' : '' }}" href="/Contact Us">Contact Us</a>
                         </li>
                     </ul>
-                    <form class="d-flex ml-auto">
-                        <!-- Menambahkan class 'center-horizontal' untuk memusatkan tombol login secara horizontal -->
-                        <div class="center-horizontal hide-on-mobile">
-                            <a href="" class="btn btn-login" style="color:#ffffff">
-                                <i class="fa-solid fa-right-to-bracket"></i> Login
-                            </a>
-                        </div>
-                    </form>
                 </div>
             </div>
         </nav>
