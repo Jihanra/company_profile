@@ -14,11 +14,38 @@
     /* Ubah angka ini untuk mengatur tingkat kegelapan gambar */
   }
 
-  /* Gaya teks dalam caption */
-  .carousel-caption h1,
   .carousel-caption p {
     color: white;
     /* Ubah warna teks agar terlihat jelas di atas latar belakang gelap */
+  }
+
+  /* Ukuran teks untuk perangkat seluler */
+  @media (max-width: 600px) {
+    .carousel-caption h1 {
+      font-size: 25px; /* Ukuran font untuk perangkat seluler */
+    }
+
+    .carousel-caption p {
+      font-size: 13px; /* Ukuran font untuk perangkat seluler */
+    }
+
+    /* Ukuran teks di bidang perusahaan */
+    .name h1 {
+      font-size: 40px; /* Ukuran font untuk perangkat seluler */
+    }
+
+    .name h3 {
+      font-size: 18px; /* Ukuran font untuk perangkat seluler */
+    }
+
+    .name p {
+      font-size: 14px; /* Ukuran font untuk perangkat seluler */
+    }
+
+    .btn {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
   }
 </style>
 
@@ -39,10 +66,10 @@
 
       <div class="container">
         <div class="carousel-caption text-start">
-          <h1>About Us.</h1>
-          <p>Di PT Karunia Cipta Qinsani, kami adalah mitra Anda dalam pengembangan profesional dan pertumbuhan organisasi. Kami telah berkomitmen untuk menyediakan solusi terbaik yang akan membantu Anda mencapai tujuan Anda.</p>
-          <p>Kami percaya pada nilai-nilai yang kami anut, yaitu integritas, inovasi, dan keunggulan. Semua layanan kami dirancang untuk memberikan dampak yang signifikan dan berkelanjutan bagi Anda.</p>
-          <p><a class="btn btn-lg btn-primary" href='/About Us'>Pelajari Lebih Lanjut</a></p>
+          <h1>Tentang Kami</h1>
+          <p>PT Karunia Cipta Qinsani adalah perusahaan yang mengkhususkan diri dalam bidang konsultasi, pelatihan, dan coaching. Kami dapat menjadi mitra strategis Anda dalam mengembangkan potensi dan mencapai keunggulan kompetitif.</p>
+          <p>Kami mengundang Anda untuk menjelajahi visi, misi, dan nilai-nilai perusahaan kami, yang akan memberikan wawasan yang lebih mendalam tentang cara kami berusaha mencapai tujuan bersama dengan Anda. </p>
+          </p><a class="btn btn-lg btn-primary" href='/About Us'>Pelajari Lebih Lanjut</a></p>
         </div>
       </div>
     </div>
@@ -55,10 +82,9 @@
 
       <div class="container">
         <div class="carousel-caption">
-          <h1>Our Service.</h1>
-          <p>Kami bangga menyediakan beragam layanan berkualitas tinggi untuk membantu Anda mencapai potensi penuh dalam pengembangan profesional dan organisasi Anda.</p>
-          <p>Kami menawarkan pelatihan yang disesuaikan, pelatihan profesional, dan konsultasi ahli untuk membantu Anda mengatasi setiap tantangan dan mencapai tujuan Anda dengan sukses.</p>
-          <p><a class="btn btn-lg btn-primary" href='/Our Service'>Telusuri Layanan Kami</a></p>
+          <h1>Layanan Kami</h1>
+          <p>Kami menyediakan layanan jasa yang berkualitas tinggi untuk membantu Anda mencapai potensi penuh dalam pengembangan profesional dan organisasi Anda.
+<p>Memberikan layanan konsultasi yang tepat, pelatihan yang terfokus, dan pembinaan pribadi untuk membantu mencapai potensi penuh Anda.<p><a class="btn btn-lg btn-primary" href='/Our Service'>Telusuri Layanan Kami</a></p>
         </div>
       </div>
     </div>
@@ -71,9 +97,8 @@
 
       <div class="container">
         <div class="carousel-caption text-end">
-          <h1>Contact Us.</h1>
-          <p>Tim kami selalu tersedia untuk menjawab pertanyaan Anda. Mari kita berbicara tentang bagaimana kami dapat membantu Anda mencapai tujuan Anda.</p>
-          <p><a class="btn btn-lg btn-primary" href='/Contact Us'>Hubungi Kami</a></p>
+          <h1>Kontak Kami</h1>
+          <p>Kami selalu siap untuk mendengarkan informasi tambahan atau menjawab pertanyaan lebih lanjut dari Anda. Jangan ragu untuk menghubungi kami. Tim kami yang berpengalaman siap membantu Anda dalam hal apa pun yang Anda butuhkan. Kami percaya dalam memberikan pelayanan yang berkualitas dan solusi yang relevan untuk memenuhi kebutuhan Anda </p><a class="btn btn-lg btn-primary" href='/Contact Us'>Hubungi Kami</a>
         </div>
       </div>
     </div>
@@ -92,9 +117,9 @@
 <div class="transparent-container" style="  background-color: rgba(255, 255, 255, 0.5); padding: 10px;"></div>
 
 <!-- Bidang Perusahaan -->
-<div class="container marketing">
+<div class="container name">
   <div class="col-lg-8 mx-auto p-3 py-md-5 text-center">
-    <h1 style="font-size: 60px; color: #f7a600; font-weight: bolder;">PT. Karunia Cipta Qinsani</h1>
+    <h1 style="color: #f7a600; font-weight: bolder;">PT. Karunia Cipta Qinsani</h1>
     <h3>Fokus Bidang:</h3>
   </div>
 

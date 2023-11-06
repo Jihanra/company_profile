@@ -70,10 +70,10 @@
                 LinkedIn
             </a>
 
-            <!-- Phone -->
+            <!-- WhatsApp -->
             <a href="https://wa.me/08111348293" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
-                <i class="fas fa-phone"></i>
-                Phone
+                <i class="fa-brands fa-whatsapp"></i>
+                WhatsApp
             </a>
 
             <!-- Email -->
