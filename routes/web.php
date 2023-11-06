@@ -10,7 +10,7 @@ Route::get('/', function () {
     return view('home.layouts.wrapper', $data);
 });
 
-Route::get('/About Us', function () {
+Route::get('/AboutUs', function () {
     $data = [
         'content' => 'home/about/index'
     ];
@@ -18,14 +18,14 @@ Route::get('/About Us', function () {
 });
 
 
-Route::get('/Our Service', function () {
+Route::get('/OurService', function () {
     $data = [
         'content' => 'home/service/index'
     ];
     return view('home.layouts.wrapper', $data);
 });
 
-Route::get('/Contact Us', function () {
+Route::get('/ContactUs', function () {
     $data = [
         'content' => 'home/contact/index'
     ];

@@ -80,13 +80,13 @@
                             <a class="nav-link {{ Request::is('Home') ? 'menu-active' : '' }}" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('About Us') ? 'menu-active' : '' }}" href="/About Us">About Us</a>
+                            <a class="nav-link {{ Request::is('About Us') ? 'menu-active' : '' }}" href="/AboutUs">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('Our Service') ? 'menu-active' : '' }}" href="/Our Service">Our Service</a>
+                            <a class="nav-link {{ Request::is('Our Service') ? 'menu-active' : '' }}" href="/OurService">Our Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('Contact Us') ? 'menu-active' : '' }}" href="/Contact Us">Contact Us</a>
+                            <a class="nav-link {{ Request::is('Contact Us') ? 'menu-active' : '' }}" href="/ContactUs">Contact Us</a>
                         </li>
                     </ul>
                 </div>
