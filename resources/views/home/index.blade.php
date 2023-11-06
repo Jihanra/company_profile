@@ -1,84 +1,132 @@
-<!doctype html>
-<html lang="en" class="h-100">
+<section class="py-5 text-center container" style="background-color: #253264; max-width: 1400px;">
+  <!-- Overview Our Service -->
+  <div class="col-lg-8 mx-auto p-3 py-md-2 text-center">
+    <h1 style="font-size: 30px; color: #f7a600; font-weight: bolder;">PT. Karunia Cipta Qinsani</h1>
+    <h3 style="color: #ffffff; font-size: 25px;">Melayani:</h3>
+  </div>
+</section>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.84.0">
-  <title>Sticky Footer Navbar Template · Bootstrap v5.0</title>
+<style>
+  .card {
+    background-color: #ffffff;
+    /* Warna latar belakang */
+    color: #253264;
+    /* Warna teks */
+    margin: 10px;
+    /* Margin di sekitar elemen */
+    border: none;
+    /* Menghapus border bawaan kartu */
+    border-radius: 10px;
+    /* Mengatur sudut (radius) border */
+  }
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer-navbar/">
+  .card-title {
+    font-size: 20px;
+    /* Ukuran teks judul */
+    font-weight: bold;
+    /* Ketebalan teks judul */
+    color: #253264;
+  }
 
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  .custom-content {
+    color: #253264;
+  }
 
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
+  .card:hover {
+    transform: translateY(-5px);
+    /* Mengangkat kartu saat dihover */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.5);
+    /* Efek bayangan saat dihover */
+  }
+</style>
 
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
+<!-- Container Service -->
+<div class="container" style="background-color: #253264; max-width: 1400px;">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="margin-left: 40px; margin-right: 40px;">
 
-</head>
-
-<body class="d-flex flex-column h-100">
-
-  <header>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Fixed navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+    <!-- Box 1 -->
+    <div class="col">
+      <div class="card shadow-lg">
+        <img src="{{ asset('images/box1.JPG') }}" alt="Effective Presentation Skill" class="card-img-top" loading="lazy" width="300" height="200">
+        <div class="card-body">
+          <p class="card-title custom-title">Effective Presentation Skill</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="custom-content">Kursus ini bertujuan untuk memberikan pelatihan terkait merancang, menyampaikan, dan memengaruhi audiens dengan cara yang memikat dan informatif melalui presentasi. Kemampuan ini sangat penting dalam berbagai konteks, termasuk bisnis, pendidikan, pemasaran, dan komunikasi publik.</small>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-
-  <main class="flex-shrink-0">
-    <div class="container">
-      <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-      <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
-      <p>Back to <a href="/docs/5.0/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
     </div>
-  </main>
 
-  <footer class="footer mt-auto py-3 bg-light">
-    <div class="container">
-      <span class="text-muted">Place sticky footer content here.</span>
+    <!-- Box 2 -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="{{ asset('images/box2.JPG') }}" alt="Training Design & Delivery" class="card-img-top" loading="lazy" width="300" height="200">
+        <div class="card-body">
+          <p class="card-title custom-title">Training Design & Delivery</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="custom-content">Kursus ini bertujuan untuk memberikan para pelatih, terkait pengetahuan dan keterampilan yang diperlukan untuk merancang dan menyampaikan sesi pelatihan mereka. Materi yang akan disampaikan dimulai dari pemahaman tentang berbagai gaya belajar, metode pembelajaran, aktivitas dan pelatihan, perancangan program pelatihan dan diakhiri dengan penyampaian pelatihan.</small>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Box 3 -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="{{ asset('images/box3.JPG') }}" alt="Creative Own Your Future" class="card-img-top" loading="lazy" width="300" height="200">
+        <div class="card-body">
+          <p class="card-title custom-title">Creative Own Your Future</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="custom-content">Kursus ini bertujuan untuk memberikan pengetahuan terkait pentingnya kreativitas dalam membentuk dan mengendalikan masa depan seseorang. Ini adalah konsep yang mendorong individu untuk mengambil peran aktif dalam merencanakan, mengembangkan, dan mencapai tujuan mereka melalui ekspresi kreatif dan inovasi.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-</body>
+  <div class="container-transparent he" style="height: 30px;"></div>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="margin-left: 40px; margin-right: 40px;">
 
-</html>
+    <!-- Box 4 -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="{{ asset('images/box4.JPG') }}" alt="Effective Coach Skill for Manager" class="card-img-top" loading="lazy" width="300" height="200">
+        <div class="card-body">
+          <p class="card-title custom-title">Effective Coach Skill for Manager</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="custom-content">Kursus ini bertujuan untuk memberikan pengetahuan terkait kemampuan manajerial dalam peran pelatihan (coaching) untuk meningkatkan kinerja tim dan mengembangkan bakat. Dalam konteks ini, seorang manajer tidak hanya bertanggung jawab untuk mengelola tugas-tugas operasional, tetapi juga memiliki peran penting dalam mengarahkan, menginspirasi, dan mengasah keterampilan karyawan mereka.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box 5 -->
+    <div class="col">
+      <div class "card shadow-sm">
+        <img src="{{ asset('images/box5.JPG') }}" alt="Consultative Selling" class="card-img-top" loading="lazy" width="300" height="200">
+        <div class="card-body">
+          <p class="card-title custom-title">Consultative Selling</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="custom-content">Kursus ini bertujuan untuk memberikan pengetahuan dan pemahaman yang mendalam tentang kebutuhan, masalah, dan tujuan pelanggan sehingga penjual dapat memberikan solusi yang paling sesuai dan bermanfaat bagi mereka. Artinya, penjual tidak hanya berfokus pada penawaran produk atau layanan mereka, tetapi juga bertindak sebagai konsultan atau penasihat bagi calon pembeli.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box 6 -->
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="{{ asset('images/box6.JPG') }}" alt="Up Your Service" class="card-img-top" loading="lazy" width="300" height="200">
+        <div class="card-body">
+          <p class="card-title custom-title">Up Your Service</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <small class="custom-content">Kursus ini bertujuan untuk memberikan pengetahuan pada usaha untuk meningkatkan kualitas pelayanan yang diberikan kepada pelanggan atau klien. Ini adalah pendekatan yang bertujuan untuk memberikan pengalaman yang lebih baik, lebih memuaskan, dan lebih efisien kepada pelanggan dalam berbagai sektor, seperti perhotelan, perbankan, perawatan kesehatan, dan banyak lainnya.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container transparan -->
+  <div class="container-transparent he" style="height: 50px;"></div>
+</div>
