@@ -5,9 +5,10 @@
 
         <!-- Sejarah Perusahaan -->
         <h1>PT. Karunia Cipta Qinsani</h1>
-        <p class="fs-5 col-md-8 mx-auto"> Mulai berdiri pada tahun 2015 di kota Bekasi. Kami adalah para Profesional yang kreatif dari latar belakang dan profesi yang berbeda-beda namun bersinergi untuk fokus pada tiga (3) bidang yaitu Training, Coaching and Consulting. </p>
-        <p class="fs-5 col-md-8 mx-auto"> Kami bersinergi untuk menjadi salah satu organisasi terkemuka yang menyediakan solusi dalam pengembangan profesional dan organisasi melalui pelatihan, pembinaan, dan konsultasi sesuai dengan nilai-nilai yang kami yakni yang berorientasi kepada hasil yang signifikan dan berkesinambungan. </p>
-        <hr class="my-5" style="width: 100%; max-width: 865px;">
+        <p class="fs-5 col-md-8 mx-auto text-sm"> Mulai berdiri pada tahun 2015 di kota Bekasi. Kami adalah para Profesional yang kreatif dari latar belakang dan profesi yang berbeda-beda namun bersinergi untuk fokus pada tiga (3) bidang yaitu Training, Coaching and Consulting. </p>
+        <p class="fs-5 col-md-8 mx-auto text-sm"> Kami bersinergi untuk menjadi salah satu organisasi terkemuka yang menyediakan solusi dalam pengembangan profesional dan organisasi melalui pelatihan, pembinaan, dan konsultasi sesuai dengan nilai-nilai yang kami yakni yang berorientasi kepada hasil yang signifikan dan berkesinambungan. </p>
+
+        <hr class="my-5 mx-auto" style="width: 100%; max-width: 865px;">
 
         <!-- VISI dan MISI -->
         <div class="row g-5">
@@ -20,7 +21,8 @@
                 <p>Menyediakan solusi dalam pengembangan profesional suatu organisasi melalui pembinaan, konsultasi, dan pelatihan di Indonesia, memberdayakan individu dan organisasi di Indonesia melalui berbagai solusi pengembangan profesional yang unggul, menyediakan pembinaan yang mendalam untuk membantu individu dan organisasi mencapai potensi penuh mereka, memberikan konsultasi yang relevan untuk membantu para klien dalam menghadapi tantangan dan mencapai tujuan mereka, menyediakan pelatihan berkualitas tinggi yang memungkinkan pengembangan keterampilan dan pengetahuan yang relevan.</p>
             </div>
         </div>
-        <hr class="my-5" style="width: 100%; max-width: 865px;">
+        <hr class="my-5 mx-auto" style="width: 100%; max-width: 865px;">
+
         <h2>VALUE</h2>
         <div class="he" style="height: 30px;"></div>
 

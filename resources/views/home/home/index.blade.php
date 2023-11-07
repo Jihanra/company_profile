@@ -22,24 +22,29 @@
   /* Ukuran teks untuk perangkat seluler */
   @media (max-width: 600px) {
     .carousel-caption h1 {
-      font-size: 25px; /* Ukuran font untuk perangkat seluler */
+      font-size: 25px;
+      /* Ukuran font untuk perangkat seluler */
     }
 
     .carousel-caption p {
-      font-size: 13px; /* Ukuran font untuk perangkat seluler */
+      font-size: 13px;
+      /* Ukuran font untuk perangkat seluler */
     }
 
     /* Ukuran teks di bidang perusahaan */
     .name h1 {
-      font-size: 40px; /* Ukuran font untuk perangkat seluler */
+      font-size: 40px;
+      /* Ukuran font untuk perangkat seluler */
     }
 
     .name h3 {
-      font-size: 18px; /* Ukuran font untuk perangkat seluler */
+      font-size: 18px;
+      /* Ukuran font untuk perangkat seluler */
     }
 
     .name p {
-      font-size: 14px; /* Ukuran font untuk perangkat seluler */
+      font-size: 14px;
+      /* Ukuran font untuk perangkat seluler */
     }
 
     .btn {
@@ -65,11 +70,11 @@
       </div>
 
       <div class="container">
-        <div class="carousel-caption text-start">
+        <div class="carousel-caption text-start" style="bottom: 60px;" >
           <h1>Tentang Kami</h1>
-          <p>PT Karunia Cipta Qinsani adalah perusahaan yang mengkhususkan diri dalam bidang konsultasi, pelatihan, dan coaching. Kami dapat menjadi mitra strategis Anda dalam mengembangkan potensi dan mencapai keunggulan kompetitif.</p>
-          <p>Kami mengundang Anda untuk menjelajahi visi, misi, dan nilai-nilai perusahaan kami, yang akan memberikan wawasan yang lebih mendalam tentang cara kami berusaha mencapai tujuan bersama dengan Anda. </p>
-          </p><a class="btn btn-lg btn-primary" href='/About Us'>Pelajari Lebih Lanjut</a></p>
+          <p>PT Karunia Cipta Qinsani adalah perusahaan yang bergerak dalam bidang konsultasi, pelatihan, dan coaching. Kami dapat menjadi mitra strategis Anda dalam mengembangkan potensi dan mencapai keunggulan kompetitif. 
+            Untuk mengetahui lebih dalam, jelajahi visi, misi, dan nilai-nilai perusahaan kami, yang akan memberikan wawasan tentang cara kami berusaha mencapai tujuan bersama dengan Anda. </p>
+          <a class="btn btn-lg btn-primary" href='/About Us'>Pelajari Lebih Lanjut</a></p>
         </div>
       </div>
     </div>
@@ -81,10 +86,11 @@
       </div>
 
       <div class="container">
-        <div class="carousel-caption">
+        <div class="carousel-caption" style="bottom: 60px;">
           <h1>Layanan Kami</h1>
           <p>Kami menyediakan layanan jasa yang berkualitas tinggi untuk membantu Anda mencapai potensi penuh dalam pengembangan profesional dan organisasi Anda.
-<p>Memberikan layanan konsultasi yang tepat, pelatihan yang terfokus, dan pembinaan pribadi untuk membantu mencapai potensi penuh Anda.<p><a class="btn btn-lg btn-primary" href='/Our Service'>Telusuri Layanan Kami</a></p>
+          <p>Memberikan layanan konsultasi yang tepat, pelatihan yang terfokus, dan pembinaan pribadi untuk membantu mencapai potensi penuh Anda.
+          <p><a class="btn btn-lg btn-primary" href='/Our Service'>Telusuri Layanan Kami</a></p>
         </div>
       </div>
     </div>
@@ -96,9 +102,10 @@
       </div>
 
       <div class="container">
-        <div class="carousel-caption text-end">
+        <div class="carousel-caption text-end" style="bottom: 80px;">
           <h1>Kontak Kami</h1>
-          <p>Kami selalu siap untuk mendengarkan informasi tambahan atau menjawab pertanyaan lebih lanjut dari Anda. Jangan ragu untuk menghubungi kami. Tim kami yang berpengalaman siap membantu Anda dalam hal apa pun yang Anda butuhkan. Kami percaya dalam memberikan pelayanan yang berkualitas dan solusi yang relevan untuk memenuhi kebutuhan Anda </p><a class="btn btn-lg btn-primary" href='/Contact Us'>Hubungi Kami</a>
+          <p>Kami selalu siap untuk mendengarkan informasi tambahan atau menjawab pertanyaan lebih lanjut dari Anda. Jangan ragu untuk menghubungi kami. Tim kami yang berpengalaman siap membantu Anda dalam hal apa pun yang Anda butuhkan. Kami percaya dalam memberikan pelayanan yang berkualitas dan solusi yang relevan untuk memenuhi kebutuhan Anda </p>
+          <a class="btn btn-lg btn-primary" href='/Contact Us'>Hubungi Kami</a>
         </div>
       </div>
     </div>

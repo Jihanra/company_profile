@@ -53,7 +53,7 @@
         <div class="container-transparent he" style="height: 15px;">
         </div>
         <h1 class="text-body-emphasis" style="color: #f7a600;">PT. Karunia Cipta Qinsani</h1>
-        <p class="col-lg-8 mx-auto fs-5" style="color: #f7a600;">
+        <p class="col-lg-8 mx-auto fs-90" style="color: #f7a600;">
             Bintarajaya 8 RT 08 RW 09 No. B17 Bekasi Barat 17136</p>
 
         <!-- Sosial Media -->
