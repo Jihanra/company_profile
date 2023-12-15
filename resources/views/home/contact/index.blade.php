@@ -71,7 +71,7 @@
             </a>
 
             <!-- WhatsApp -->
-            <a href="https://wa.me/6281330008888" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
+            <a href="https://wa.me/6281292917563" class="btn btn-outline-secondary btn-lg px-4 rounded-pill custom-btn">
                 <i class="fa-brands fa-whatsapp"></i>
                 WhatsApp
             </a>
